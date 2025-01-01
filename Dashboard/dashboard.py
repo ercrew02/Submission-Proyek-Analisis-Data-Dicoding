@@ -11,8 +11,8 @@ st.set_page_config(
 )
 
 # Memuat dataset
-day_df = pd.read_csv('data/day.csv')  # Dataset harian
-hour_df = pd.read_csv('data/hour.csv')  # Dataset per jam
+day_df = pd.read_csv('day.csv')  # Dataset harian
+hour_df = pd.read_csv('hour.csv')  # Dataset per jam
 
 # Judul utama
 st.title("Bike Sharing Dashboard 🚴")
